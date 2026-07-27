@@ -1,0 +1,134 @@
+[
+  {
+    "config": {
+      "dropout_p": 0.0,
+      "gaussian_sigma": 0.0,
+      "ensemble_size": 1,
+      "epochs": 20,
+      "lr": 0.01,
+      "hidden_dim": 16,
+      "batch_size": 32
+    },
+    "metrics": {
+      "accuracy_standard": 0.8545,
+      "accuracy_mc_dropout": null,
+      "accuracy_gaussian_noise": null,
+      "accuracy_ensemble": null,
+      "best_accuracy": 0.8545,
+      "inference_time_ms": 0.51,
+      "inference_joules": 0.0329381,
+      "tdp_watts": 65.0
+    },
+    "wall_time_s": 0.4
+  },
+  {
+    "config": {
+      "dropout_p": 0.5,
+      "gaussian_sigma": 0.0,
+      "ensemble_size": 1,
+      "epochs": 20,
+      "lr": 0.01,
+      "hidden_dim": 16,
+      "batch_size": 32
+    },
+    "metrics": {
+      "accuracy_standard": 0.8364,
+      "accuracy_mc_dropout": 0.7818,
+      "accuracy_gaussian_noise": null,
+      "accuracy_ensemble": null,
+      "best_accuracy": 0.8364,
+      "inference_time_ms": 0.3,
+      "inference_joules": 0.0196066,
+      "tdp_watts": 65.0
+    },
+    "wall_time_s": 0.4
+  },
+  {
+    "config": {
+      "dropout_p": 0.0,
+      "gaussian_sigma": 0.3,
+      "ensemble_size": 1,
+      "epochs": 20,
+      "lr": 0.01,
+      "hidden_dim": 16,
+      "batch_size": 32
+    },
+    "metrics": {
+      "accuracy_standard": 0.8,
+      "accuracy_mc_dropout": null,
+      "accuracy_gaussian_noise": 0.8,
+      "accuracy_ensemble": null,
+      "best_accuracy": 0.8,
+      "inference_time_ms": 0.31,
+      "inference_joules": 0.0203307,
+      "tdp_watts": 65.0
+    },
+    "wall_time_s": 0.4
+  },
+  {
+    "config": {
+      "dropout_p": 0.0,
+      "gaussian_sigma": 0.0,
+      "ensemble_size": 5,
+      "epochs": 20,
+      "lr": 0.01,
+      "hidden_dim": 16,
+      "batch_size": 32
+    },
+    "metrics": {
+      "accuracy_standard": 0.8364,
+      "accuracy_mc_dropout": null,
+      "accuracy_gaussian_noise": null,
+      "accuracy_ensemble": 0.9273,
+      "best_accuracy": 0.9273,
+      "inference_time_ms": 0.56,
+      "inference_joules": 0.0364702,
+      "tdp_watts": 65.0
+    },
+    "wall_time_s": 1.8
+  },
+  {
+    "config": {
+      "dropout_p": 0.5,
+      "gaussian_sigma": 0.3,
+      "ensemble_size": 1,
+      "epochs": 20,
+      "lr": 0.01,
+      "hidden_dim": 16,
+      "batch_size": 32
+    },
+    "metrics": {
+      "accuracy_standard": 0.8182,
+      "accuracy_mc_dropout": 0.8,
+      "accuracy_gaussian_noise": 0.8182,
+      "accuracy_ensemble": null,
+      "best_accuracy": 0.8182,
+      "inference_time_ms": 0.3,
+      "inference_joules": 0.0192569,
+      "tdp_watts": 65.0
+    },
+    "wall_time_s": 0.3
+  },
+  {
+    "config": {
+      "dropout_p": 0.5,
+      "gaussian_sigma": 0.3,
+      "ensemble_size": 5,
+      "epochs": 20,
+      "lr": 0.01,
+      "hidden_dim": 16,
+      "batch_size": 32
+    },
+    "metrics": {
+      "accuracy_standard": 0.8545,
+      "accuracy_mc_dropout": 0.8909,
+      "accuracy_gaussian_noise": 0.8545,
+      "accuracy_ensemble": 0.9091,
+      "best_accuracy": 0.9091,
+      "inference_time_ms": 0.31,
+      "inference_joules": 0.020098,
+      "tdp_watts": 65.0
+    },
+    "wall_time_s": 1.6
+  }
+]
