@@ -4,7 +4,7 @@ author: "QNFO Research Collective"
 date: "2026-07-27"
 series: "The Qubit Delusion — Quantum Advantage Audit"
 status: "draft"
-doi: "[PENDING-ZENODO-V2]"
+doi: "10.5281/zenodo.21623218"
 abstract: |
   We present a constructive falsification of the quantum advantage claims in Lakhdar-Hamina
   et al. (2025, PRL / arXiv:2507.21222v2). The BQNN paper benchmarked a quantum neural
@@ -25,7 +25,7 @@ abstract: |
 license: "CC BY 4.0"
 ---
 
-**Author:** QNFO Research Collective | **Date:** 2026-07-27 | **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | **Series:** The Qubit Delusion — Quantum Advantage Audit
+**Author:** QNFO Research Collective | **Date:** 2026-07-27 | **DOI:** [10.5281/zenodo.21623218](https://doi.org/10.5281/zenodo.21623218) | **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | **Series:** The Qubit Delusion — Quantum Advantage Audit | **DOI v1:** [10.5281/zenodo.21566035](https://doi.org/10.5281/zenodo.21566035)
 
 ---
 
