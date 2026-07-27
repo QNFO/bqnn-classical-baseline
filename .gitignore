@@ -1,0 +1,63 @@
+# Quantum Advantage Audit Series
+# BQNN v1 DOI: 10.5281/zenodo.21566035
+# BQNN v2: Classical Competitive Baseline — Constructive Falsification
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (MNIST)
+data/
+*.pth
+*.pt
+*.h5
+*.npz
+
+# Build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+
+# Ephemeral scripts (kaizen fix A4)
+_*.py
+_*.js
+
+# Credentials
+.env
+*.token
+keys.json
+.cloudflare_token
+.osf_token
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Wrangler
+.wrangler/
+
+# PDFs committed in releases/ only
+# *.pdf
